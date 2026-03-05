@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Vroum Entretien - Garage automobile</title>
+
+<style>
+
+body{
+font-family: Arial;
+margin:0;
+background:#f4f4f4;
+}
+
+header{
+background:#111;
+color:white;
+padding:30px;
+text-align:center;
+}
+
+nav{
+background:#333;
+padding:15px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.hero{
+background:#e9ecef;
+padding:80px;
+text-align:center;
+}
+
+.button{
+background:#007BFF;
+color:white;
+padding:15px 30px;
+text-decoration:none;
+border-radius:5px;
+}
+
+.services{
+padding:50px;
+text-align:center;
+}
+
+.service-box{
+background:white;
+padding:20px;
+margin:15px;
+display:inline-block;
+width:250px;
+border-radius:8px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Vroum Entretien</h1>
+<p>Garage automobile - Tous travaux mécaniques</p>
+</header>
+
+<nav>
+<a href="#">Accueil</a>
+<a href="#">Services</a>
+<a href="#">Rendez-vous</a>
+<a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+
+<h2>Votre voiture entre de bonnes mains</h2>
+
+<p>Entretien, diagnostic et réparation toutes marques</p>
+
+<a class="button" href="#">Prendre rendez-vous</a>
+
+</section>
+
+<section class="services">
+
+<h2>Nos services</h2>
+
+<div class="service-box">Diagnostic automobile</div>
+<div class="service-box">Vidange</div>
+<div class="service-box">Freinage</div>
+<div class="service-box">Distribution</div>
+<div class="service-box">Embrayage</div>
+<div class="service-box">Réparation moteur</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 Vroum-entretien.fr</p>
+
+</footer>
+
+</body>
+</html>
